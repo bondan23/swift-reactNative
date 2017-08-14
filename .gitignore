@@ -1,0 +1,38 @@
+# Xcode
+!**/*.xcodeproj
+!**/*.pbxproj
+!**/*.xcworkspacedata
+!**/*.xcsettings
+!**/*.xcscheme
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+#ios Build
+/ios/build/
+/ios/DerivedData/
+
+#pods
+/ios/Pods/
+
+# Node
+node_modules
+*.log
+.nvm
+/danger/node_modules/
+
+# OS X
+.DS_Store
