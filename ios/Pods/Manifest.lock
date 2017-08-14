@@ -1,0 +1,91 @@
+PODS:
+  - Alamofire (4.4.0)
+  - boost (1.59.0):
+    - boost/graph-includes (= 1.59.0)
+    - boost/math-includes (= 1.59.0)
+    - boost/numeric-includes (= 1.59.0)
+    - boost/pointer_cast-includes (= 1.59.0)
+    - boost/preprocessor-includes (= 1.59.0)
+    - boost/shared_ptr-includes (= 1.59.0)
+    - boost/string_algorithms-includes (= 1.59.0)
+  - boost/graph-includes (1.59.0)
+  - boost/math-includes (1.59.0)
+  - boost/numeric-includes (1.59.0)
+  - boost/pointer_cast-includes (1.59.0)
+  - boost/preprocessor-includes (1.59.0)
+  - boost/shared_ptr-includes (1.59.0)
+  - boost/string_algorithms-includes (1.59.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.09.26.00):
+    - boost
+    - DoubleConversion
+    - GLog
+  - GLog (0.3.4)
+  - React/Core (0.47.1):
+    - Yoga (= 0.47.1.React)
+  - React/CxxBridge (0.47.1):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.47.1):
+    - boost
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+  - React/DevSupport (0.47.1):
+    - React/Core
+    - React/RCTWebSocket
+  - React/jschelpers (0.47.1):
+    - Folly (= 2016.09.26.00)
+  - React/RCTNetwork (0.47.1):
+    - React/Core
+  - React/RCTText (0.47.1):
+    - React/Core
+  - React/RCTWebSocket (0.47.1):
+    - React/Core
+  - Yoga (0.47.1.React)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `master`)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - GLog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: master
+    :git: https://github.com/Alamofire/Alamofire.git
+  DoubleConversion:
+    :podspec: ../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
+  Folly:
+    :podspec: ../node_modules/react-native/third-party-podspecs/Folly.podspec
+  GLog:
+    :podspec: ../node_modules/react-native/third-party-podspecs/GLog.podspec
+  React:
+    :path: ../node_modules/react-native
+  Yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: b03b43cc381ec02eb9855085427186ef89055eef
+    :git: https://github.com/Alamofire/Alamofire.git
+
+SPEC CHECKSUMS:
+  Alamofire: 4c2bf7fa03c4a626163606de0a417568c270575e
+  boost: 30a15ffb6d9aa4646dd3caffc960753f4cb4ca4e
+  DoubleConversion: 08fd92ee44beec5d61445039bf9440fc7d277cd8
+  Folly: b7db7556bc4bb23f0d6b5cc093da8810f87499f1
+  GLog: a1afff4ac9b8446d17a1e8a293f96f6dd1a8c589
+  React: f705239a901cb3f95445c34468e5b37b6f80a0d4
+  Yoga: 13a12502dfabb4c75b914071dcb542af800deed4
+
+PODFILE CHECKSUM: 21f31d3f454d3419f46df42164791082d031c4f9
+
+COCOAPODS: 1.2.0
