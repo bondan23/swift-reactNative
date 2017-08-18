@@ -7,6 +7,7 @@ import {
   Text,
   View
 } from 'react-native';
+import DeviceInfo from 'react-native-device-info';
 
 class WeatherApp extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class WeatherApp extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.highScoresTitle}>
-          2048 High Scores!
+          2048 High Scores! on {DeviceInfo.getModel()}
         </Text>
         <Text style={styles.scores}>
           {contents}

@@ -21,6 +21,8 @@ PODS:
     - DoubleConversion
     - GLog
   - GLog (0.3.4)
+  - React (0.47.1):
+    - React/Core (= 0.47.1)
   - React/Core (0.47.1):
     - Yoga (= 0.47.1.React)
   - React/CxxBridge (0.47.1):
@@ -49,6 +51,8 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.47.1):
     - React/Core
+  - RNDeviceInfo (0.9.3):
+    - React
   - Yoga (0.47.1.React)
 
 DEPENDENCIES:
@@ -65,6 +69,7 @@ DEPENDENCIES:
   - React/RCTNetwork (from `../node_modules/react-native`)
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -79,6 +84,8 @@ EXTERNAL SOURCES:
     :podspec: ../node_modules/react-native/third-party-podspecs/GLog.podspec
   React:
     :path: ../node_modules/react-native
+  RNDeviceInfo:
+    :path: ../node_modules/react-native-device-info
   Yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga
 
@@ -94,8 +101,9 @@ SPEC CHECKSUMS:
   Folly: b7db7556bc4bb23f0d6b5cc093da8810f87499f1
   GLog: a1afff4ac9b8446d17a1e8a293f96f6dd1a8c589
   React: f705239a901cb3f95445c34468e5b37b6f80a0d4
+  RNDeviceInfo: dc3cbee96cd2392cf03d6ff6191dc15f1606a166
   Yoga: 13a12502dfabb4c75b914071dcb542af800deed4
 
-PODFILE CHECKSUM: 6e05af94423ad0c984a4f481196fe630b3a66a9d
+PODFILE CHECKSUM: a42d97a1352ace20261b11cb1e91ce56525572df
 
 COCOAPODS: 1.2.0

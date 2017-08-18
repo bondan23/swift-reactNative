@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RNDeviceInfo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>React.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,12 +47,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4117640FA14738AA688A397AC0309EA8</key>
+		<key>13263BB744BB327084EAAEF1C9E31389</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3313FE2450D8F5054BFB50B27233B98D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5BE06BAB0984F417C36EFD294626C47A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>763DB3C231AC499CDE80873F36F045D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,17 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8F5EECF88CEC9519A9ECC5A520C27C09</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>A5FA91212D04403C4C7A893A3270FD69</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D1AE206B34894B5F1B142B3BF4CAE179</key>
+		<key>F108E593FF17DDCA6D6D7A870685E7A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
